@@ -1,0 +1,48 @@
+## Practice Questions
+1. How do you assess the statistical significance of an insight?
+2. What is the Central Limit Theorem? Explain it. Why is it important?
+3. What is the statistical power?
+4. How do you control for biases?
+5. What are confounding variables?
+6. What is A/B testing?
+7. What are confidence intervals?
+
+
+Assessing the statistical significance of an insight typically involves conducting hypothesis testing or other statistical analyses. The process generally includes the following steps:
+
+a. Formulate a null hypothesis (H0) and an alternative hypothesis (H1). The null hypothesis often represents the status quo or the absence of an effect, while the alternative hypothesis represents the effect you're interested in.
+
+b. Collect relevant data to test the hypothesis.
+
+c. Choose a significance level (alpha, usually set at 0.05) that defines the probability threshold for statistical significance.
+
+d. Perform a statistical test, such as a t-test, chi-squared test, ANOVA, or regression analysis, depending on your data and research question.
+
+e. Calculate the p-value, which is the probability of observing your data or more extreme results if the null hypothesis is true.
+
+f. If the p-value is less than or equal to the chosen significance level (alpha), you reject the null hypothesis and consider the insight statistically significant. If the p-value is greater than alpha, you fail to reject the null hypothesis, indicating that the result is not statistically significant.
+
+g. Interpret the results and draw conclusions based on the p-value and effect size.
+
+The Central Limit Theorem (CLT) is a fundamental concept in statistics. It states that when you take a random sample of a sufficiently large size from any population with a finite mean and variance, the distribution of the sample means will approximate a normal distribution, regardless of the shape of the original population's distribution. This is important because it allows for the use of normal distribution-based statistical methods, even when dealing with non-normally distributed data. The CLT is the basis for many statistical techniques and hypothesis testing methods in inferential statistics.
+
+Statistical power is the probability that a statistical test will correctly detect a true effect or difference when it exists. In other words, it's the probability of not making a Type II error, which is failing to reject a null hypothesis when it is false. High statistical power is desirable because it reduces the risk of missing important effects. Power is influenced by factors like sample size, effect size, and the significance level chosen for a test.
+
+To control for biases in data analysis, it's important to:
+
+a. Use random sampling methods when collecting data to minimize selection bias.
+b. Implement blinding or double-blind techniques to reduce observer bias.
+c. Employ randomization and experimental control in experiments to mitigate experimental bias.
+d. Properly preprocess and clean data to minimize data entry errors and measurement bias.
+e. Document and disclose potential sources of bias in research and analysis.
+
+Confounding variables are extraneous factors that may affect the relationship between the independent and dependent variables in a study, leading to incorrect conclusions. To control for confounding variables, researchers can:
+
+a. Randomly assign participants to treatment groups in experimental studies to reduce the influence of confounders.
+b. Match or stratify study groups to ensure they are similar with respect to potential confounding variables.
+c. Include confounding variables as covariates in statistical models.
+d. Collect data on and analyze the potential confounders to assess their impact on the results.
+
+A/B testing, also known as split testing, is a method for comparing two versions (A and B) of a webpage, app, or other digital content to determine which one performs better in terms of a specific goal, such as click-through rate, conversion rate, or user engagement. It involves randomly assigning users to one of the versions and measuring the impact of changes to make data-driven decisions for optimization.
+
+Confidence intervals are a range of values that provide a plausible range for the true population parameter, such as a mean or a proportion, based on a sample of data. Confidence intervals are often constructed at a specified confidence level (e.g., 95%), indicating that there is a 95% probability that the true parameter falls within the interval. They are a key tool in statistics for quantifying the uncertainty associated with point estimates and providing a measure of the precision of an estimate.
